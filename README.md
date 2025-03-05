@@ -12,19 +12,19 @@ Automated testing is crucial for software quality. It helps identify bugs early,
 - Set up a **testing environment** using Python and pytest.
 
 ## Project Structure
-
-📦 testing-automation/
- ┣ 📜 .gitignore
- ┣ 📜 README.md
- ┣ 📜 requirements.txt
- ┣ 📂 tests/
- ┃ ┣ 📜 test_math_operations.py
- ┃ ┣ 📜 test_api.py
- ┃ ┣ 📜 test_ui.py
- ┣ 📜 math_operations.py
- ┣ 📜 main.py
+```
+📦 testing-automation/  
+ ┣ 📜 .gitignore  
+ ┣ 📜 README.md  
+ ┣ 📜 requirements.txt  
+ ┣ 📂 tests/  
+ ┃ ┣ 📜 test_math_operations.py  
+ ┃ ┣ 📜 test_api.py  
+ ┃ ┣ 📜 test_ui.py  
+ ┣ 📜 math_operations.py  
+ ┣ 📜 main.py  
  ┣ 📂 venv/ (virtual environment directory, should be ignored)
-
+```
 
 ## Setup Instructions
 
@@ -100,6 +100,7 @@ This file contains UI tests using Selenium, simulating user interactions with a 
 
 For UI testing, we should have the necessary web drivers installed (e.g., ChromeDriver for Selenium). We can specify the path to the driver in the test scripts if needed.
 
+![Project Screenshot](https://github.com/DilshanaRanawake/testing-automation/blob/main/ScreenShots/Screenshot%201.png)
 ## Why Automated Testing?
 
 Automated testing saves time, ensures consistency, and helps with:
