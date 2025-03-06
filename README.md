@@ -2,6 +2,24 @@
 
 This project demonstrates how to set up and write tests for various components of a software application. The tests are organized into different categories, including math operations, API testing, and UI testing. The goal is to ensure that the application functions correctly by verifying each part through automated tests.
 
+## Table of Contents  
+
+1. [Testing Automation Project](#testing-automation-project)  
+2. [Why This Project?](#why-this-project)  
+3. [Technologies Used](#technologies-used)  
+4. [Project Structure](#project-structure)  
+5. [Setup Instructions](#setup-instructions)  
+   - [1. Create a Virtual Environment](#1-create-a-virtual-environment)  
+   - [2. Install Dependencies](#2-install-dependencies)  
+   - [3. Running Tests](#3-running-tests)  
+6. [Code Explanation](#code-explanation)  
+   - [1. `math_operations.py`](#1-math_operationspy)  
+   - [2. `test_math_operations.py`](#2-test_math_operationspy)  
+   - [3. `test_api.py`](#3-test_apipy)  
+   - [4. `test_ui.py`](#4-test_uipy)  
+7. [Running UI Tests](#running-ui-tests)  
+8. [Why Automated Testing?](#why-automated-testing) 
+
 ## Why This Project?
 
 Automated testing is crucial for software quality. It helps identify bugs early, ensures that the code behaves as expected, and improves the maintainability of the software.
@@ -10,6 +28,13 @@ Automated testing is crucial for software quality. It helps identify bugs early,
 - Test **API endpoints** to ensure they return expected results.
 - Perform **UI tests** to automate user interactions on a web application.
 - Set up a **testing environment** using Python and pytest.
+
+## Technologies Used
+This project uses the following libraries for testing:
+
+- PyTest – A testing framework for writing unit and integration tests in Python.
+- requests – A library for sending HTTP requests, used for API testing.
+- Selenium – A tool for automating web browsers, used for UI testing.
 
 ## Project Structure
 ```
@@ -77,6 +102,7 @@ pytest tests/test_api.py
 ``` bash
 pytest tests/test_ui.py
 ```
+
 
 ## Code Explanation
 
